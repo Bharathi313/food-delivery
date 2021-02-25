@@ -1,0 +1,50 @@
+<h2 class="title">Menu List Page!</h2>
+<div class='wrapper'>
+  <div class='row' *ngFor="let data of menuListData; let i=index">
+    <div class='column'>
+      <div>
+        <img width= "70%" height="100px" src="./assets/images/{{data.NAME}}.jpg"
+          [ngClass]="(data.AVAILABILITY == 'Not Available') ? 'filterImg' : ''">
+      </div>
+
+    </div>
+    <div class='column'>
+      <div [ngClass]="(data.AVAILABILITY == 'Not Available') ? 'filterImg' : ''">
+        <h3>{{data.NAME}}</h3>
+        <p>{{data.TYPE}}</p>
+        <p>{{data.CUISINE}}</p>
+      </div>
+    </div>
+    <div class='column'>
+      <div>
+        <h4 class="spacing" [ngClass]="(data.AVAILABILITY == 'Not Available') ? 'filterImg' : ''">
+          Rs.{{data.PRICE * quantity[i]}}</h4>
+
+        <div class="spacing quantity buttons_added"
+          [ngClass]="(data.AVAILABILITY == 'Not Available') ? 'filterImg' : ''">
+          <form #myForm="ngForm">
+            <button type="button" class="minus"
+              (click)="(data.AVAILABILITY == 'Not Available') ? null : decreaseValue(myForm.value,i)">-</button>
+            <input type="number" min="1" max="" name="quantity" value="1" class="input-text qty text"
+              ngModel={{quantity[i]}}>
+            <button type="button" class="plus"
+              (click)="(data.AVAILABILITY == 'Not Available') ? null : increaseValue(myForm.value,i)">+</button>
+          </form>
+        </div>
+
+        <div class="spacing">
+          <button
+            (click)="((data.AVAILABILITY == 'Not Available') || (data.add2cart == 1))  ? null : addToCart(data,myForm.value)"
+            [ngClass]="{
+              'addToCart' :  (!data.add2cart || data.add2cart == 0),
+              'addedToCart' : (data.add2cart == 1),
+              'notAvailable' : (data.AVAILABILITY == 'Not Available')
+              }">
+            {{(data.AVAILABILITY == 'Not Available') ? notAvailable : (!data.add2cart || data.add2cart == 0) ? addToCard : (data.add2cart == 1) ? addedToCard : 'addToCard'}}
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.filterImg{
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.addToCart{
+    background-color: lightskyblue;
+    padding: 10px 17px;
+}
+
+.addedToCart{
+    background-color: green;
+    padding: 10px;
+}
+
+.notAvailable{
+    background-color: red;
+    padding: 11px;
+}

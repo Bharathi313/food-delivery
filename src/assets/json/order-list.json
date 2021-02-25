@@ -1,0 +1,263 @@
+[
+    {
+        "NAME": "Idly",
+        "TYPE": "Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "30",
+        "QUANTITY": "3",
+        "DATE":"18-02-2021",
+        "TIME":"2:30 PM"
+    },
+    {
+        "NAME": "Vada",
+        "TYPE": "Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "15",
+        "QUANTITY": "2",
+        "DATE":"18-02-2021",
+        "TIME":"2:00 PM"
+    },
+    {
+        "NAME": "Dosa",
+        "TYPE": "Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "50",
+        "QUANTITY": "2",
+        "DATE":"18-02-2021",
+        "TIME":"1:00 PM"
+    },
+    {
+        "NAME": "Chappathi",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "40",
+        "QUANTITY": "2",
+        "DATE":"18-02-2021",
+        "TIME":"8:00 AM"
+    },
+    {
+        "NAME": "Chicken",
+        "TYPE": "Non-Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "100",
+        "QUANTITY": "4",
+        "DATE":"18-02-2021",
+        "TIME":"11:00 AM"
+    },
+    {
+        "NAME": "Fish",
+        "TYPE": "Non-Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"18-02-2021",
+        "TIME":"11:30 AM"
+    },
+    {
+        "NAME": "Idly",
+        "TYPE": "Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "30",
+        "QUANTITY": "4",
+        "DATE":"15-02-2021",
+        "TIME":"9:30 AM"
+    },
+    {
+        "NAME": "Vada",
+        "TYPE": "Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "15",
+        "QUANTITY": "1",
+        "DATE":"15-02-2021",
+        "TIME":"5:30 PM"
+    },
+    {
+        "NAME": "Dosa",
+        "TYPE": "Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "50",
+        "QUANTITY": "3",
+        "DATE":"15-02-2021",
+        "TIME":"8:30 AM"
+    },
+    {
+        "NAME": "Chappathi",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "40",
+        "QUANTITY": "4",
+        "DATE":"15-02-2021",
+        "TIME":"7:30 AM"
+    },
+    {
+        "NAME": "Chicken",
+        "TYPE": "Non-Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "100",
+        "QUANTITY": "2",
+        "DATE":"16-02-2021",
+        "TIME":"8:30 PM"
+    },
+    {
+        "NAME": "Fish",
+        "TYPE": "Non-Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"16-02-2021",
+        "TIME":"1:30 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Non-Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "300",
+        "QUANTITY": "2",
+        "DATE":"18-02-2021",
+        "TIME":"4:30 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"17-02-2021",
+        "TIME":"5:30 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"01-01-2021",
+        "TIME":"5:00 PM"
+    },
+    {
+        "NAME": "Fish",
+        "TYPE": "Non-Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"01-02-2021",
+        "TIME":"1:30 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"10-02-2021",
+        "TIME":"5:00 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"10-02-2021",
+        "TIME":"4:00 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"11-02-2021",
+        "TIME":"5:00 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"12-02-2021",
+        "TIME":"5:30 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"13-02-2021",
+        "TIME":"11:00 AM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"09-02-2021",
+        "TIME":"3:00 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"07-02-2021",
+        "TIME":"8:00 PM"
+    },  
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"08-02-2021",
+        "TIME":"7:30 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"05-02-2021",
+        "TIME":"6:00 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"06-02-2021",
+        "TIME":"5:30 PM"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "PRICE": "200",
+        "QUANTITY": "2",
+        "DATE":"15-01-2021",
+        "TIME":"5:00 PM"
+    },
+    {
+        "NAME": "Idly",
+        "TYPE": "Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "30",
+        "QUANTITY": "3",
+        "DATE":"10-01-2021",
+        "TIME":"2:30 PM"
+    },
+    {
+        "NAME": "Vada",
+        "TYPE": "Veg",
+        "CUISINE": "South Indian",
+        "PRICE": "15",
+        "QUANTITY": "2",
+        "DATE":"15-01-2021",
+        "TIME":"2:00 PM"
+    }
+]

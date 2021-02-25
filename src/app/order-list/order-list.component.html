@@ -1,0 +1,34 @@
+<h2 class="title">Order List Page!</h2>
+
+      <input type="email" class="search" id="search-text" 
+        [(ngModel)]="searchText" placeholder="Enter text to search" 
+        autofocus>
+
+      <button style="padding: 10px" (click)="this.sortOrder = !this.sortOrder; sortData()">Sort by Date</button>
+
+
+<div class='wrapper'>
+       <!-- results of ngFor is passed to appFilter with argument searchText -->
+    <div class='row' *ngFor="let data of orderListData | filter:searchText ; let i=index">
+      <div class='column'>
+        <div>
+          <img width="70%" height="100px" src="./assets/images/{{data.NAME}}.jpg">
+      </div>
+
+      </div>
+      <div class='column'>
+        <div>
+          <h3 innerHtml="{{data.NAME | highlightSearch: searchText}}"></h3>
+          <p innerHtml="{{data.TYPE | highlightSearch: searchText}}"></p>
+          <p innerHtml="{{data.CUISINE | highlightSearch: searchText}}"></p>
+      </div>
+      </div>
+      <div class='column'>
+        <div>
+          <h3 innerHtml="Rs.{{data?.CARTPRICE ||  (data?.PRICE * data?.QUANTITY) || (data?.PRICE * data?.quantity) | highlightSearch: searchText}}"></h3>
+          <p innerHtml="{{data.DATE | highlightSearch: searchText}}"></p>
+          <p innerHtml="{{data.TIME | highlightSearch: searchText}}"></p>
+        </div>
+      </div>
+    </div>  
+  </div> 

@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "food-delivery-app"
+  "defaultProject": "food-delivery-app",
+  "cli": {
+    "analytics": false
+  }
 }

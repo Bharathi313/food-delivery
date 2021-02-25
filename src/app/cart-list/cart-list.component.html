@@ -1,0 +1,57 @@
+
+<div *ngIf="!orderLists">
+  <h2 class ="title">Cart List Page!</h2>
+<div *ngIf="(cartItems?.length) == 0" class="errorMsg">
+  <h2>Your cart is empty</h2>
+  <h2>Add something from the menu</h2>
+</div>
+
+<div *ngIf="cartItems?.length" class='wrapper'>
+    <div class='row' *ngFor="let data of cartItems; let i=index">
+      <div class='column'>
+        <div>
+          <img width="70%" height="100px" src="./assets/images/{{data.NAME}}.jpg">
+      </div>
+
+      </div>
+      <div class='column'>
+        <div>
+          <h3>{{data.NAME}}</h3>
+          <p>{{data.TYPE}}</p>
+          <p>{{data.CUISINE}}</p>
+      </div>
+      </div>
+      <div class='column'>
+        <div>
+          <h4 class="spacing">Rs.{{data.PRICE * quantity[i]}}</h4>
+
+          <div class="spacing quantity buttons_added">
+            <form #myForm="ngForm">
+              <button type="button" class="minus" (click)="decreaseValue(myForm.value,i)">-</button>
+              <input type="number" min="1" max="" name="quantity" value="1" class="input-text qty text" ngModel={{quantity[i]}}>
+              <button type="button" class="plus" (click)="increaseValue(myForm.value,i)">+</button>
+            </form>
+          </div>
+          
+          <div class="spacing">
+            <button style="background-color: lightskyblue;padding: 11px" (click)="removeFromCart(data)">Remove Item</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+
+  <div *ngIf="cartItems?.length" style="margin:25px">
+    <h3>Total Amount: {{totalAmount}}</h3>
+    <button style="width: 100%;
+      padding: 10px;
+      background: green;" (click)="orderNow(cartItems)">Order Now</button>
+  </div>
+</div>
+
+  <div *ngIf="orderLists" class="errorMsg" style="color: green;">
+    <h2>Your order is successful</h2>
+    <h2>Please check in My Orders</h2>
+</div>

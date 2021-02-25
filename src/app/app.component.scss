@@ -1,0 +1,33 @@
+.images{
+    border-radius: 25px;
+    margin: inherit;
+}
+
+.selectedImage{
+    border-radius: 25px;
+    margin: inherit;
+    border: 3px solid green;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.item {
+    position:relative;
+    // padding-top:20px;
+    display:inline-block;
+}
+.notify-badge{
+    position: absolute;
+    right: -5px;
+    top: -10px;
+    background: green;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    width: 15px;
+}

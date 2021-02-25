@@ -1,0 +1,51 @@
+[
+    {
+        "NAME": "Idly",
+        "TYPE": "Veg",
+        "CUISINE": "South Indian",
+        "AVAILABILITY": "['BREAKFAST','LUNCH']",
+        "PRICE": "30"
+    },
+    {
+        "NAME": "Vada",
+        "TYPE": "Veg",
+        "CUISINE": "South Indian",
+        "AVAILABILITY": "['BREAKFAST','LUNCH']",
+        "PRICE": "15"
+    },
+    {
+        "NAME": "Dosa",
+        "TYPE": "Veg",
+        "CUISINE": "South Indian",
+        "AVAILABILITY": "['BREAKFAST','LUNCH']",
+        "PRICE": "50"
+    },
+    {
+        "NAME": "Chappathi",
+        "TYPE": "Veg",
+        "CUISINE": "North Indian",
+        "AVAILABILITY": "['BREAKFAST','LUNCH']",
+        "PRICE": "40"
+    },
+    {
+        "NAME": "Chicken",
+        "TYPE": "Non-Veg",
+        "CUISINE": "South Indian",
+        "AVAILABILITY": "['BREAKFAST','LUNCH','DINNER']",
+        "PRICE": "100"
+    },
+    {
+        "NAME": "Fish",
+        "TYPE": "Non-Veg",
+        "CUISINE": "South Indian",
+        "AVAILABILITY": "['BREAKFAST','LUNCH','DINNER']",
+        "PRICE": "200"
+    },
+    {
+        "NAME": "Pizza",
+        "TYPE": "Non-Veg",
+        "CUISINE": "South Indian",
+        "AVAILABILITY": "Not Available",
+        "PRICE": "400"
+    }
+]
